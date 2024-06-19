@@ -2,7 +2,7 @@
 
 const nodemailer = require('nodemailer')
 
-// Create the transport
+// Create the transport 
 const createTransporter = () => {
     return nodemailer.createTransport({
       host: process.env.SMTP_HOST,
